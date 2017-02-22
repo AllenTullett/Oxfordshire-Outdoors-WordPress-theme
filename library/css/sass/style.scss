@@ -1,0 +1,22 @@
+/* Normalize */
+@import "normalize/_normalize.scss";
+
+@import "components/_animate.scss";
+/* Theme variabes */
+@import "theme/_colours.scss";
+@import "theme/_fonts.scss";
+@import "theme/_typestyles.scss";
+
+/* Base */
+@import "base/_images.scss";
+
+/* Components */
+
+@import "components/_buttons.scss";
+@import "components/_pagination.scss";
+
+/* Third party */
+@import "third-party/_cookie-bar.scss";
+@import "third-party/_pace.scss";
+
+@import "theme/_styles.scss";

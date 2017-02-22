@@ -1,0 +1,78 @@
+/* Changes the colour of the background */
+body.login {
+    background: #ffffff;
+    background-image: url('login-background.jpg');
+    background-size: cover;
+}
+/* Replace the logo - 247px x 63px */
+.login h1 a {
+    background-image: url('login-logo.png');
+    background-size: 300px 72px;
+    width: 300px;
+    height: 72px;
+}
+/* Adjust the height padding */
+#login {
+    padding: 100px 0 0;
+}
+/* Customize the Look of the Login Form */
+.login form {
+    margin:15px auto;
+    padding:30px;
+    border: 1px solid rgba(0,0,0,.2);
+    background-clip: padding-box;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0;
+    overflow: hidden;
+}
+.login label {
+    color: #333;
+    line-height: 26px;
+}
+/* Login Form button */
+.login .button-primary {
+    width: 100%;
+    height: auto !important;
+    margin: 20px 0 0 0;
+    padding: 6px 0 !important;
+    border:0;
+    border-color:transparent !important;
+    background-color: #40ad49 !important;
+    -webkit-box-shadow: 0;
+    box-shadow: 0;
+    font-weight: 900;
+    text-shadow: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.login .button-primary:hover {
+    background-color:#5c5daf !important;
+    text-shadow: none;
+    color: #fff;
+}
+
+.login .button-primary:active {
+    background: #5c5daf !important;
+    text-shadow: #333333 0 -1px 0;
+    color: #fff;
+}
+.login #nav,
+.login #backtoblog {
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+.login #nav a,
+.login #backtoblog a {
+    text-decoration: none;
+    color: #ffffff
+}
+.login #nav a:hover,
+.login #backtoblog a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}

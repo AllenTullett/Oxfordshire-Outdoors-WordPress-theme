@@ -1,0 +1,48 @@
+/* ----------------------------------------------------------------
+Pagination
+---------------------------------------------------------------- */
+.pagination {
+    clear: both;
+    margin:50px 0 0 0;
+    padding: 25px 0;
+    width: calc(100% - 30px);
+    border-bottom: 1px solid $mid-grey;
+    display: inline-block;
+    span,
+    a {
+        display: block;
+        float: left;
+        margin: 0 3px 0 0;
+        padding: 8px 4px 0 4px;
+        height: 20px;
+        width: 20px;
+        color: #ffffff;
+        font-family: 'ralewayextrabold', helvetica, arial, sans-serif;
+        text-align: center;
+        font-size: 0.8em;
+        text-decoration: none;
+        border: 1px solid;
+        border-color: $dark-grey;
+        background-color: $dark-grey;
+        border-radius: 0;
+        @include animate-content;
+    }
+    a:hover {
+        color: #ffffff;
+        border-color: $light-green;
+        background-color: $light-green;
+        text-decoration: none;
+    }
+    .current {
+        padding-top: 6px;
+        padding-bottom: 2px;
+        color: #ffffff;
+        border-color: $light-green;
+        background-color: $light-green;
+        text-decoration: none;
+        /*position: relative;*/
+        top: inherit;
+        left: inherit;
+        z-index: 1;
+    }
+}

@@ -1,0 +1,141 @@
+/* ----------------------------------------------------------------
+Primary colours
+---------------------------------------------------------------- */
+/* Young people */
+.young-people-page-title {
+    color: !important;
+}
+.young-people-page-header {
+    background-color:;
+}
+.young-people-article h3 {
+    color: !important;
+}
+
+#menu-sidebar-young-people > ul.menu > li > a:link {
+    background-color: ;
+}
+#menu-sidebar-young-people > ul.menu > li a:hover {
+    color:  !important;
+}
+#menu-sidebar-young-people > ul.menu > li.current_page_item > a:link {
+    color: ;
+}
+#menu-sidebar-young-people ul.sub-menu a:hover {
+    background-color: ;
+}
+
+/* Live well feel good */
+.live-well-feel-good-page-title {
+    color: !important;
+}
+.live-well-feel-good-page-header {
+    background-color:;
+}
+.live-well-feel-good-article h3 {
+    color: !important;
+}
+
+#menu-sidebar-live-well > ul.menu > li > a:link {
+    background-color: ;
+}
+#menu-sidebar-live-well > ul.menu > li > a:hover {
+    color:  !important;
+}
+#menu-sidebar-live-well > ul.menu > li.current_page_item > a:link {
+    color: ;
+}
+#menu-sidebar-live-well ul.sub-menu a:hover {
+    background-color: ;
+}
+
+/* Other things we do */
+.other-things-we-do-page-title {
+    color: !important;
+}
+.other-things-we-do-page-header {
+    background-color:;
+}
+.other-things-we-do-article > h3 {
+    color: !important;
+}
+
+#menu-sidebar-other-things > ul.menu > li > a:link {
+    background-color: ;
+}
+#menu-sidebar-other-things > ul.menu > li > a:hover {
+    color:  !important;
+}
+#menu-sidebar-other-things > ul.menu > li.current_page_item > a:link {
+    color: ;
+}
+#menu-sidebar-other-things ul.sub-menu a:hover {
+    background-color: ;
+}
+
+/* The Grand */
+.the-grnd-page-title {
+    color: !important;
+}
+.the-grnd-page-header {
+    background-color:;
+}
+.the-grnd-article h3 {
+    color: !important;
+}
+
+#menu-sidebar-the-grand > ul.menu > li > a:link {
+    background-color: ;
+}
+#menu-sidebar-the-grand > ul.menu > li > a:hover {
+    color:  !important;
+}
+#menu-sidebar-the-grand > ul.menu > li.current_page_item > a:link {
+    color: ;
+}
+#menu-sidebar-the-grand ul.sub-menu a:hover {
+    background-color: ;
+}
+
+/* ----------------------------------------------------------------
+Menu colours
+---------------------------------------------------------------- */
+.colour_one > a {
+    background-color:  !important;
+}
+.colour_two > a {
+    background-color: !important;
+}
+.colour_three > a {
+    background-color: !important;
+}
+.colour_four > a {
+    background-color: !important;
+}
+.colour_five > a {
+    background-color: !important;
+}
+.colour_six > a {
+    background-color: !important;
+}
+.colour_seven > a  {
+    background-color: !important;
+}
+.colour_eight > a {
+    background-color: !important;
+}
+
+/* ----------------------------------------------------------------
+Images
+---------------------------------------------------------------- */
+.wp-caption p.wp-caption-text {
+    background:;
+    color:;
+}
+
+/* ----------------------------------------------------------------
+Other
+---------------------------------------------------------------- */
+.event-post-month-container {
+    background:;
+}

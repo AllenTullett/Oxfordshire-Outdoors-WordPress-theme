@@ -1,0 +1,103 @@
+// Base
+$base-font-size: 1em;
+$font-size-45:2.813em; /* 45px */
+$font-size-38:2.375em; /* 38px */
+$font-size-35:2.188em; /* 35px */
+$font-size-28:1.750em; /* 28px */
+$font-size-20:1.250em; /* 20px */
+$font-size-18:1.125em; /* 18px */
+$font-size-14:0.875em; /* 14px */
+$font-size-12:0.750em; /* 12px */
+
+$base-color: $grey;
+$baseline: 1.75em;
+$primary-font-family: Verdana, Arial, Helvetica, sans-serif !important;
+$secondary-font-family: Georgia, serif;
+
+body {
+    font-family: $primary-font-family;
+    font-size: $base-font-size;
+}
+h1 { color:$dark-green; font-size: 1.4em; }
+h2 { color:$dark-green; font-size: 1.2em; margin: 0; }
+h3 { color:#000000; font-size: 1.1em; margin: 0; }
+h4 { color:#000000; font-size: 1.1em; margin: 0; }
+h1,
+h2,
+h3,
+h4 {
+    display: block;
+    overflow: auto;
+}
+p {
+    margin: 0 0 20px 0;
+    color: $dark-grey;
+    font-size: 1.05em;
+    line-height: 1.5em;
+    overflow: auto;
+}
+p:last-of-type {
+    margin-bottom: 0;
+}
+hr {
+    border-top: 1px solid $light-grey;
+    margin: 10px 0 20px 0;
+    padding: 0;
+}
+a {
+    &:link {
+        color: #00CC00;
+        line-height: 1em;
+        text-decoration: underline;
+    }
+    &:hover {
+        color: #FF9900;
+        text-decoration: none;
+    }
+    &:active {
+        font-weight: 500;
+    }
+    &:visited {
+        color: #00CC00;
+    }
+    &:visited:hover {
+        color: #FF9900;
+    }
+}
+ul, ol {
+    font-size: 1.05em;
+    line-height: 1.5em;
+}
+
+/* ----------------------------------------------------------------
+Blockquotes
+---------------------------------------------------------------- */
+blockquote {
+    margin: 10px;
+    padding: 10px;
+    background-color: #D6DEE6;
+    margin-left: 50px;
+    padding-left: 48px;
+    background-image: url('../images/postquote.png');
+    background-position: left top;
+    background-repeat: no-repeat;
+    overflow: auto;
+    clear: both;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -moz-box-shadow: 5px 5px 2px #888888;
+    -webkit-box-shadow: 5px 5px 2px #888888;
+    box-shadow: 5px 5px 2px #888888;
+    p {
+        margin-bottom: 20px;
+        line-height: 1.3em;
+        font-style: italic;
+    }
+}
+@media (max-width: 780px) {
+    blockquote {
+        margin-left: 0;
+        p {
+        }
+    }
+}
